@@ -1,0 +1,25 @@
+th{
+    border: 2px solid black;
+    font-weight: bold;
+    background-color: lightskyblue;
+}
+
+th:hover {background-color: greenyellow;}
+
+td {
+    border: 1px solid blue;
+    /* border-collapse: collapse; */
+    /* border-spacing: 200px; */
+    width: 150px;
+    background-color: lightblue;
+    text-align:  center;
+}
+
+table{
+    caption-side: top;
+    /* table-layout: fixed; */
+    table-layout: auto;
+    width: 100%;  
+
+    border-spacing: 2px
+}
